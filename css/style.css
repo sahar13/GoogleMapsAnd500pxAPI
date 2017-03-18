@@ -1,0 +1,93 @@
+#map {
+ max-width: 85%;
+ height: 700px;
+ margin: auto;
+ margin-top: 20px;
+ padding: 0;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  max-width: 85%;
+  margin: auto;
+  height: 50px;
+  padding: 0 30px;
+  border-bottom: 1px solid lightgray;
+}
+
+.logo {
+  height: 33px;
+  padding: 0 10px;
+}
+
+#button {
+  margin: 0 5px 0 20px;
+}
+
+#userKeyword {
+  width: 400px;
+  height: 28px;
+  margin: 0 5px;
+  padding: 0;
+  background: #f7f8fa;
+  border: 0;
+  border: 1px solid #eeeff2;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  font-family: "Andale Mono", Courier, monospace;
+  font-weight: normal;
+  font-size: 14px;
+  color: #222;
+  text-indent: 10px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 0px;
+}
+
+.image {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  padding: 5px;
+  border: 1px solid black;
+}
+
+.infoContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.title {
+  margin: 0;
+  padding: 2px 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+.artist {
+  margin: 0;
+  padding: 1px 0;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 12px;
+  text-transform: capitalize;
+}
+
+.description {
+  margin: 0;
+  padding-bottom: 5px;
+  max-width: 150px;
+  font-size: 11px;
+  font-family: "Andale Mono", Courier, monospace;
+  overflow: scroll;
+}
